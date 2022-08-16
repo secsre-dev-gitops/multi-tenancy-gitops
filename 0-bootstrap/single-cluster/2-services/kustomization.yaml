@@ -86,12 +86,12 @@ resources:
 #- argocd/operators/grafana-operator.yaml
 #- argocd/instances/grafana-instance.yaml
 #- argocd/instances/grafana-instana.yaml
-#- argocd/instances/artifactory.yaml
+- argocd/instances/artifactory.yaml
 #- argocd/instances/chartmuseum.yaml
-#- argocd/instances/developer-dashboard.yaml
-#- argocd/instances/swaggereditor.yaml
-#- argocd/instances/sonarqube.yaml
-#- argocd/instances/pact-broker.yaml
+- argocd/instances/developer-dashboard.yaml
+- argocd/instances/swaggereditor.yaml
+- argocd/instances/sonarqube.yaml
+- argocd/instances/pact-broker.yaml
 # In OCP 4.7+ we need to install openshift-pipelines and possibly privileged scc to the pipeline serviceaccount
 #- argocd/operators/openshift-pipelines.yaml
 
@@ -107,8 +107,8 @@ resources:
 #- argocd/instances/openshift-service-mesh-instance.yaml
 
 # Monitoring
-#- argocd/instances/instana-agent.yaml
-#- argocd/instances/instana-robot-shop.yaml
+- argocd/instances/instana-agent.yaml
+- argocd/instances/instana-robot-shop.yaml
 
 # Spectrum Protect Plus
 #- argocd/operators/spp-catalog.yaml
