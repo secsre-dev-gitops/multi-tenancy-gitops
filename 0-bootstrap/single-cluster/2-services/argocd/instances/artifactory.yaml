@@ -44,7 +44,7 @@ spec:
               password: admin
             persistence:
               enabled: true
-              storageClassName: ''
+              storageClassName: 'ocs-storagecluster-ceph-rbd'
               size: 5Gi
             uid: 0
           ingress:
